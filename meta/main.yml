@@ -1,0 +1,22 @@
+galaxy_info:
+  role_name: hostname
+  author: Benoît Xylo
+  description: Hostname manager
+
+  license: MIT
+
+  min_ansible_version: "2.9"
+
+  platforms:
+    - name: Debian
+      versions:
+        - all
+    - name: Ubuntu
+      versions:
+        - all
+    - name: ArchLinux
+      versions:
+        - all
+
+  galaxy_tags:
+    - hostname
